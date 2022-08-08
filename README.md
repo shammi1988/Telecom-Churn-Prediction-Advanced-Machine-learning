@@ -64,3 +64,54 @@ There are mainly 6 steps
 - Prepare Model for Predictor variables selection (Prepare multiple models & choose the best one)
 - Finally we need to give best Summarize to the company
 
+
+#### Conclusion :
+The best model to predict the churn is observed to be Random Forest based on the accuracy as performance measure.
+
+The incoming calls (with local same operator mobile/other operator mobile/fixed lines, STD or Special) plays a vital role in understanding the possibility of churn. Hence, the operator should focus on incoming calls data and has to provide some kind of special offers to the customers whose incoming calls turning lower.
+
+#### Details:
+After cleaning the data, we broadly employed three models as mentioned below including some variations within these models in order to arrive at the best model in each of the cases.
+
+##### Logistic Regression :
+Logistic Regression with RFE Logistic regression with PCA Random Forest For each of these models, the summary of performance measures are as follows:
+
+##### Logistic Regression
+- Train Accuracy : ~90% 
+- Test Accuracy : ~88%
+
+##### Logistic regression with PCA
+- Train Accuracy : ~92% 
+- Test Accuracy : ~92%
+
+##### Decision Tree with PCA:
+- Train Accuracy : ~94% 
+- Test Accuracy : ~93%
+
+##### Random Forest with PCA:
+- Train Accuracy :~ 92% 
+- Test Accuracy :~ 92%
+
+## Technologies Used
+Python 3
+matplotlib
+numpy
+Pandas
+seaborn
+sklearn
+statsmodels
+imblearn
+<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
+## Kaggle Link:
+https://www.kaggle.com/code/shammikapoor/telecom-churn-prediction-advanced-ml
+
+## Contact
+Created by [@shammi1988] - feel free to contact me!
+
+
+<!-- Optional -->
+<!-- ## License -->
+<!-- This project is open source and available under the [... License](). -->
+
+<!-- You don't have to include all sections - just the one's relevant to your project -->
